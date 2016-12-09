@@ -1,0 +1,38 @@
+{
+  "name": "key-value-replace",
+  "version": "0.0.1",
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ],
+  "description": "Replace keys with their values in a string",
+  "main": "src/index.js",
+  "keywords": [
+    "string",
+    "template",
+    "delimiter",
+    "object",
+    "data",
+    "key",
+    "value",
+    "regexp"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/electerious/key-value-replace",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electerious/key-value-replace.git"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "test": "istanbul cover _mocha"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.4",
+    "mocha": "^3.0.0"
+  }
+}
