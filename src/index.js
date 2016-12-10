@@ -1,12 +1,12 @@
 'use strict'
 
 /*
- * Replace keys with their values in a string.
+ * Replace key/value pairs in a string.
  * @public
- * @param {String} str
- * @param {Object} data
- * @param {Array} delimiter
- * @returns {String}
+ * @param {String} str - A string to replace the contents of.
+ * @param {Object} data - Key/value pairs, where value must be a function or a string.
+ * @param {Array} delimiter - Optional array with a start and end delimiter.
+ * @returns {String} - A string with replaced content.
  */
 module.exports = function(str, data, delimiter = [ '{{ ', ' }}' ]) {
 

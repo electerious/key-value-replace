@@ -4,7 +4,7 @@
   "authors": [
     "Tobias Reich <tobias@electerious.com>"
   ],
-  "description": "Replace keys with their values in a string",
+  "description": "Replace key/value pairs in a string",
   "main": "src/index.js",
   "keywords": [
     "string",
