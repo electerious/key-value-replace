@@ -10,6 +10,7 @@
     "string",
     "template",
     "delimiter",
+    "text",
     "object",
     "data",
     "key",
