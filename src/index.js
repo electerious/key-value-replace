@@ -8,7 +8,9 @@
  * @param {Array} delimiter - Optional array with a start and end delimiter.
  * @returns {String} - A string with replaced content.
  */
-module.exports = function(str, data, delimiter = [ '{{ ', ' }}' ]) {
+module.exports = function(str, data, delimiter) {
+
+	delimiter = delimiter || [ '{{ ', ' }}' ]
 
 	Object.keys(data).forEach((key, i) => {
 
