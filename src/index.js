@@ -1,6 +1,6 @@
 'use strict'
 
-/*
+/**
  * Replace key/value pairs in a string.
  * @public
  * @param {String} str - A string to replace the contents of.
