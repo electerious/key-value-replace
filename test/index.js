@@ -1,7 +1,7 @@
 'use strict'
 
-const assert  = require('chai').assert
-const replace = require('./../src/index')
+const assert = require('chai').assert
+const index  = require('./../src/index')
 
 describe('index()', function() {
 
@@ -10,7 +10,7 @@ describe('index()', function() {
 		const str  = 'hello {{ name }}'
 		const data = { name: 'world' }
 
-		assert.strictEqual(replace(str, data), 'hello world')
+		assert.strictEqual(index(str, data), 'hello world')
 
 	})
 
@@ -19,7 +19,7 @@ describe('index()', function() {
 		const str  = '{{ greeting }} {{ name }}'
 		const data = { greeting: 'hi', name: 'world' }
 
-		assert.strictEqual(replace(str, data), 'hi world')
+		assert.strictEqual(index(str, data), 'hi world')
 
 	})
 
@@ -28,7 +28,7 @@ describe('index()', function() {
 		const str  = 'hello {{ name }}'
 		const data = {}
 
-		assert.strictEqual(replace(str, data), 'hello {{ name }}')
+		assert.strictEqual(index(str, data), 'hello {{ name }}')
 
 	})
 
@@ -37,7 +37,7 @@ describe('index()', function() {
 		const str  = 'hello {{ name }}'
 		const data = { name: (key, i) => key + i }
 
-		assert.strictEqual(replace(str, data), 'hello name0')
+		assert.strictEqual(index(str, data), 'hello name0')
 
 	})
 
@@ -47,7 +47,7 @@ describe('index()', function() {
 		const data      = { name: 'world' }
 		const delimiter = [ '!! ', ' !!' ]
 
-		assert.strictEqual(replace(str, data, delimiter), 'hello world')
+		assert.strictEqual(index(str, data, delimiter), 'hello world')
 
 	})
 
