@@ -1,6 +1,6 @@
 # key-value-replace
 
-[![Travis Build Status](https://travis-ci.org/electerious/key-value-replace.svg?branch=master)](https://travis-ci.org/electerious/key-value-replace) [![AppVeyor Status](https://ci.appveyor.com/api/projects/status/p99ic2d4ba120c0w?svg=true)](https://ci.appveyor.com/project/electerious/key-value-replace)  [![Coverage Status](https://coveralls.io/repos/github/electerious/key-value-replace/badge.svg?branch=master)](https://coveralls.io/github/electerious/key-value-replace?branch=master) [![Dependencies](https://david-dm.org/electerious/key-value-replace.svg)](https://david-dm.org/electerious/key-value-replace#info=dependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/electerious/key-value-replace.svg)](https://greenkeeper.io/)
+[![Travis Build Status](https://travis-ci.org/electerious/key-value-replace.svg?branch=master)](https://travis-ci.org/electerious/key-value-replace) [![Coverage Status](https://coveralls.io/repos/github/electerious/key-value-replace/badge.svg?branch=master)](https://coveralls.io/github/electerious/key-value-replace?branch=master) [![Dependencies](https://david-dm.org/electerious/key-value-replace.svg)](https://david-dm.org/electerious/key-value-replace#info=dependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/electerious/key-value-replace.svg)](https://greenkeeper.io/)
 
 Replace key/value pairs in a string.
 
