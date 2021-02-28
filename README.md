@@ -1,6 +1,6 @@
 # key-value-replace
 
-![Build](https://github.com/electerious/key-value-replace/workflows/Build/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/electerious/key-value-replace/badge.svg?branch=master)](https://coveralls.io/github/Malvid/components-lookup?branch=master)
+![Build](https://github.com/electerious/key-value-replace/workflows/Build/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/electerious/key-value-replace/badge.svg?branch=master)](https://coveralls.io/github/electerious/key-value-replace?branch=master)
 
 Replace key/value pairs in a string.
 
